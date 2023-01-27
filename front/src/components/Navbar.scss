@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav{
+    width: 100vw;
+    height: 80px;
+    background-color: rgba(16, 99, 78, 0.9);;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .nav__logo{
+        width: 15vw;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-family: 'Courier New', Courier, monospace;
+        cursor: pointer;
+    }
+    .nav__btns{
+        width: 40vw;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        button{
+            border: none;
+            background-color: transparent;
+            color: white;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 17px;
+            &:hover{
+                color: orange;
+                text-decoration: underline;
+                transition: .5s;
+            }
+            a{
+                color: white;
+                text-decoration: none;
+                &:hover{
+                    color: orange;
+                    transition: .5s;
+                }
+            }
+        }
+    }
+}
